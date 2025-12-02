@@ -20,6 +20,7 @@ import { ScrollToTop } from "./components/common/ScrollToTop";
 import Home from "./pages/Dashboard/Home";
 import PortfolioPage from "./pages/Portfolio/PortfolioPage";
 import AboutPage from "./pages/About/AboutPage";
+import Service from "./pages/Services/Service";
 
 
 export default function App() {
@@ -33,6 +34,7 @@ export default function App() {
             <Route index path="/" element={<Home />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/portfolio" element={<PortfolioPage />} />
+            <Route path="/service" element={<Service />} />
 
             {/* Others Page */}
             {/* <Route path="/profile" element={<UserProfiles />} />
